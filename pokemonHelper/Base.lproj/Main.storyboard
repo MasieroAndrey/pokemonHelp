@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,33 +21,33 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wjK-tL-XjM">
                                         <rect key="frame" x="0.0" y="66.5" width="120" height="630"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsk-SI-soc">
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsk-SI-soc">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="118"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="118" id="gT6-yW-8oh"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="charizard"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="20"/>
+                                                        <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57d-W5-PMh">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57d-W5-PMh">
                                                 <rect key="frame" x="0.0" y="128" width="120" height="118"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="umbreon"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNy-ej-67G">
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNy-ej-67G">
                                                 <rect key="frame" x="0.0" y="256" width="120" height="118"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="blastoise"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbo-U6-BAw">
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbo-U6-BAw">
                                                 <rect key="frame" x="0.0" y="384" width="120" height="118"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="dragonite"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNM-Kq-CGS">
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNM-Kq-CGS">
                                                 <rect key="frame" x="0.0" y="512" width="120" height="118"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="pidgeot"/>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -58,32 +57,35 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="IHw-v5-EMq">
                                         <rect key="frame" x="130" y="0.0" width="120" height="763"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONU-zP-odl">
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONU-zP-odl">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="118"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="118" id="K8N-nq-bJI"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="eevee"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBH-0D-IcJ">
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBH-0D-IcJ">
                                                 <rect key="frame" x="0.0" y="129" width="120" height="118"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="beedrill"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTA-De-QtV">
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTA-De-QtV">
                                                 <rect key="frame" x="0.0" y="258" width="120" height="118"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="squirtle"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22K-3V-dhd">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22K-3V-dhd">
                                                 <rect key="frame" x="0.0" y="387" width="120" height="118"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="pikachu (1)"/>
+                                                <connections>
+                                                    <segue destination="OR7-a7-DM1" kind="show" id="ZD5-b7-gIt"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEb-i4-lyp">
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEb-i4-lyp">
                                                 <rect key="frame" x="0.0" y="516" width="120" height="118"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="mew"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaG-v2-J9R">
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaG-v2-J9R">
                                                 <rect key="frame" x="0.0" y="645" width="120" height="118"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="eea9a8d3c829f8ac9e393cb2116d6597"/>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -93,28 +95,28 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9AV-iL-G6p">
                                         <rect key="frame" x="260" y="66.5" width="120" height="630"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqy-Cd-0K5">
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqy-Cd-0K5">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="118"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="118" id="BhD-eM-XkN"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="skrelp"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRh-Hl-GYi">
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRh-Hl-GYi">
                                                 <rect key="frame" x="0.0" y="128" width="120" height="118"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="gengar"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJs-QY-YHN">
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJs-QY-YHN">
                                                 <rect key="frame" x="0.0" y="256" width="120" height="118"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="charmander"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlP-8B-zc3">
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlP-8B-zc3">
                                                 <rect key="frame" x="0.0" y="384" width="120" height="118"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="meowth"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oOs-ok-ryU">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oOs-ok-ryU">
                                                 <rect key="frame" x="0.0" y="512" width="120" height="118"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Button" image="feebas"/>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -122,24 +124,103 @@
                                         </constraints>
                                     </stackView>
                                 </subviews>
+                                <color key="backgroundColor" red="0.14509674910000001" green="0.1450968087" blue="0.14509648080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.79186338190000005" green="0.1772071123" blue="0.2117176056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="90u-dL-EaU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Obp-tk-wh8"/>
-                            <constraint firstItem="90u-dL-EaU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jXU-gk-HFF"/>
+                            <constraint firstItem="90u-dL-EaU" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-5" id="jXU-gk-HFF"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="kCM-Bh-mvS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
+            <point key="canvasLocation" x="1765.217391304348" y="93.75"/>
+        </scene>
+        <!--Bio-->
+        <scene sceneID="ilg-zT-CV8">
+            <objects>
+                <viewController id="Amh-BS-5F0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IE9-p7-83c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vXE-kp-koH"/>
+                        <color key="backgroundColor" red="0.8624188304" green="0.037243489179999999" blue="0.180329144" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bio" image="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" selectedImage="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" id="CWs-n6-JFR"/>
+                    <navigationItem key="navigationItem" id="YAn-4i-dCr" colorLabel="IBBuiltInLabel-Gray"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sGq-L2-Vzd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4579.7101449275369" y="93.75"/>
+        </scene>
+        <!--Pokemons-->
+        <scene sceneID="hwF-ay-O31">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eLi-gC-dsd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OR7-a7-DM1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Pokemons" image="icon" selectedImage="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" id="vgJ-lu-V40"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="X4M-9Z-Boj"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fxb-eq-Y7O">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vYb-V5-iQ3" kind="relationship" relationship="rootViewController" id="bSi-5a-uTC"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="2628" y="94"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="9zc-xs-aSS">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="vYb-V5-iQ3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="cDu-lB-qjb"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" id="91r-xm-PbR">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.79186338190000005" green="0.1772071123" blue="0.2117176056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Amh-BS-5F0" kind="relationship" relationship="viewControllers" id="sxg-Yh-cE2"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M8I-Op-1nV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3669.5652173913045" y="93.75"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="beedrill" width="333" height="400"/>
+        <image name="blastoise" width="360" height="391"/>
+        <image name="charizard" width="360" height="283"/>
+        <image name="charmander" width="354" height="400"/>
+        <image name="dragonite" width="312" height="400"/>
+        <image name="eea9a8d3c829f8ac9e393cb2116d6597" width="490" height="552"/>
+        <image name="eevee" width="325" height="400"/>
+        <image name="feebas" width="295" height="400"/>
+        <image name="gengar" width="360" height="368"/>
+        <image name="icon" width="128" height="128"/>
+        <image name="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" width="30" height="30"/>
+        <image name="meowth" width="305" height="400"/>
+        <image name="mew" width="360" height="366"/>
+        <image name="pidgeot" width="360" height="377"/>
+        <image name="pikachu (1)" width="360" height="337"/>
+        <image name="skrelp" width="334" height="400"/>
+        <image name="squirtle" width="360" height="372"/>
+        <image name="umbreon" width="332" height="400"/>
     </resources>
 </document>
