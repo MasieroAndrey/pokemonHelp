@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -145,32 +146,114 @@
             </objects>
             <point key="canvasLocation" x="1765.217391304348" y="93.75"/>
         </scene>
-        <!--Bio-->
+        <!--Pokemon-->
         <scene sceneID="ilg-zT-CV8">
             <objects>
                 <viewController id="Amh-BS-5F0" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IE9-p7-83c">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="786"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Jyp-9Q-eqI">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="176"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MxK-YT-2nM">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="176"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pikachu (1)" translatesAutoresizingMaskIntoConstraints="NO" id="IoX-5Z-LOl">
+                                                <rect key="frame" x="15" y="16" width="151" height="144"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pikachu" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hu6-Os-bVk">
+                                                <rect key="frame" x="174" y="64" width="227" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="26"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IaF-rN-AYu">
+                                <rect key="frame" x="20" y="184" width="380" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ataque Rápido do Pikachu" translatesAutoresizingMaskIntoConstraints="NO" id="HHe-Md-uVc">
+                                <rect key="frame" x="90" y="237" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c760a8dace4470a9df81995944b5b74fc8ec9b9f_hq" translatesAutoresizingMaskIntoConstraints="NO" id="Pg1-2v-CgA">
+                                <rect key="frame" x="90" y="401" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ataque Rápido do Pikachu" translatesAutoresizingMaskIntoConstraints="NO" id="zRw-Si-6sL">
+                                <rect key="frame" x="90" y="559" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quick Attack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ake-ti-lVZ">
+                                <rect key="frame" x="161" y="368" width="93" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Volt Tackle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lx0-gC-I0y">
+                                <rect key="frame" x="161" y="530" width="80" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vXE-kp-koH"/>
-                        <color key="backgroundColor" red="0.8624188304" green="0.037243489179999999" blue="0.180329144" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.79186338190000005" green="0.1772071123" blue="0.2117176056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Jyp-9Q-eqI" firstAttribute="top" secondItem="vXE-kp-koH" secondAttribute="top" id="d4M-MO-na8"/>
+                            <constraint firstItem="Jyp-9Q-eqI" firstAttribute="leading" secondItem="vXE-kp-koH" secondAttribute="leading" id="wfh-82-JiX"/>
+                            <constraint firstItem="Jyp-9Q-eqI" firstAttribute="trailing" secondItem="vXE-kp-koH" secondAttribute="trailing" id="yxG-go-G40"/>
+                            <constraint firstItem="vXE-kp-koH" firstAttribute="bottom" secondItem="Jyp-9Q-eqI" secondAttribute="bottom" constant="527" id="zBU-gp-IzT"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Bio" image="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" selectedImage="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" id="CWs-n6-JFR"/>
-                    <navigationItem key="navigationItem" id="YAn-4i-dCr" colorLabel="IBBuiltInLabel-Gray"/>
+                    <tabBarItem key="tabBarItem" title="Pokemon" image="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" selectedImage="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" id="CWs-n6-JFR"/>
+                    <navigationItem key="navigationItem" id="YAn-4i-dCr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sGq-L2-Vzd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4579.7101449275369" y="93.75"/>
+            <point key="canvasLocation" x="3340.579710144928" y="836.38392857142856"/>
+        </scene>
+        <!--Bio-->
+        <scene sceneID="ryh-QJ-uFl">
+            <objects>
+                <viewController id="Yms-XV-3Iz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CGw-ft-j3L">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="786"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="p1g-x8-8IU"/>
+                        <color key="backgroundColor" red="0.79186338190000005" green="0.1772071123" blue="0.2117176056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bio" image="book" catalog="system" id="hg3-0V-Ctc">
+                        <imageReference key="selectedImage" image="book" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ak6-xx-i2z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4160.8695652173919" y="835.71428571428567"/>
         </scene>
         <!--Pokemons-->
         <scene sceneID="hwF-ay-O31">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eLi-gC-dsd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OR7-a7-DM1" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" interfaceStyle="light" id="OR7-a7-DM1" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Pokemons" image="icon" selectedImage="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" id="vgJ-lu-V40"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="X4M-9Z-Boj"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fxb-eq-Y7O">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="fxb-eq-Y7O">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -179,6 +262,7 @@
                         <segue destination="vYb-V5-iQ3" kind="relationship" relationship="rootViewController" id="bSi-5a-uTC"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eLi-gC-dsd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2628" y="94"/>
         </scene>
@@ -188,14 +272,16 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="vYb-V5-iQ3" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="cDu-lB-qjb"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" id="91r-xm-PbR">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="91r-xm-PbR">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" red="0.79186338190000005" green="0.1772071123" blue="0.2117176056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="selectedImageTintColor" red="0.8624188304" green="0.037243489179999999" blue="0.180329144" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBar>
                     <connections>
                         <segue destination="Amh-BS-5F0" kind="relationship" relationship="viewControllers" id="sxg-Yh-cE2"/>
+                        <segue destination="Yms-XV-3Iz" kind="relationship" relationship="viewControllers" id="H4m-eS-CQd"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M8I-Op-1nV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -204,8 +290,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Ataque Rápido do Pikachu" width="320" height="180"/>
         <image name="beedrill" width="333" height="400"/>
         <image name="blastoise" width="360" height="391"/>
+        <image name="book" catalog="system" width="128" height="102"/>
+        <image name="c760a8dace4470a9df81995944b5b74fc8ec9b9f_hq" width="1024" height="576"/>
         <image name="charizard" width="360" height="283"/>
         <image name="charmander" width="354" height="400"/>
         <image name="dragonite" width="312" height="400"/>
