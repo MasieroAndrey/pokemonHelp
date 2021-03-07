@@ -13,6 +13,7 @@
 		342B0EB825F24C8F009EF321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B0EB625F24C8F009EF321 /* Main.storyboard */; };
 		342B0EBA25F24C8F009EF321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342B0EB925F24C8F009EF321 /* Assets.xcassets */; };
 		342B0EBD25F24C8F009EF321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B0EBB25F24C8F009EF321 /* LaunchScreen.storyboard */; };
+		D8E76CFA25F580460082FF98 /* pokemonmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8E76CF925F580460082FF98 /* pokemonmusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		342B0EB925F24C8F009EF321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		342B0EBC25F24C8F009EF321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		342B0EBE25F24C8F009EF321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8E76CF925F580460082FF98 /* pokemonmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pokemonmusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				342B0EAF25F24C8F009EF321 /* pokemonHelper */,
+				D8E76CEE25F573660082FF98 /* Music */,
 				342B0EAE25F24C8F009EF321 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +68,14 @@
 				342B0EBE25F24C8F009EF321 /* Info.plist */,
 			);
 			path = pokemonHelper;
+			sourceTree = "<group>";
+		};
+		D8E76CEE25F573660082FF98 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				D8E76CF925F580460082FF98 /* pokemonmusic.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8E76CFA25F580460082FF98 /* pokemonmusic.mp3 in Resources */,
 				342B0EBD25F24C8F009EF321 /* LaunchScreen.storyboard in Resources */,
 				342B0EBA25F24C8F009EF321 /* Assets.xcassets in Resources */,
 				342B0EB825F24C8F009EF321 /* Main.storyboard in Resources */,
