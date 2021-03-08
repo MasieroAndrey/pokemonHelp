@@ -13,6 +13,7 @@
 		342B0EB825F24C8F009EF321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B0EB625F24C8F009EF321 /* Main.storyboard */; };
 		342B0EBA25F24C8F009EF321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342B0EB925F24C8F009EF321 /* Assets.xcassets */; };
 		342B0EBD25F24C8F009EF321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342B0EBB25F24C8F009EF321 /* LaunchScreen.storyboard */; };
+		34DCCEC425F654F70000E744 /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DCCEC325F654F70000E744 /* PokemonViewController.swift */; };
 		D8E76CFA25F580460082FF98 /* pokemonmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8E76CF925F580460082FF98 /* pokemonmusic.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		342B0EB925F24C8F009EF321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		342B0EBC25F24C8F009EF321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		342B0EBE25F24C8F009EF321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34DCCEC325F654F70000E744 /* PokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewController.swift; sourceTree = "<group>"; };
 		D8E76CF925F580460082FF98 /* pokemonmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pokemonmusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 		342B0EAF25F24C8F009EF321 /* pokemonHelper */ = {
 			isa = PBXGroup;
 			children = (
+				34DCCEC325F654F70000E744 /* PokemonViewController.swift */,
 				342B0EB025F24C8F009EF321 /* AppDelegate.swift */,
 				342B0EB225F24C8F009EF321 /* SceneDelegate.swift */,
 				342B0EB425F24C8F009EF321 /* ViewController.swift */,
@@ -151,6 +154,7 @@
 			files = (
 				342B0EB525F24C8F009EF321 /* ViewController.swift in Sources */,
 				342B0EB125F24C8F009EF321 /* AppDelegate.swift in Sources */,
+				34DCCEC425F654F70000E744 /* PokemonViewController.swift in Sources */,
 				342B0EB325F24C8F009EF321 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
