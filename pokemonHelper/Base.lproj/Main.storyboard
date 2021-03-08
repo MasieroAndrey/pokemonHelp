@@ -14,11 +14,11 @@
             <objects>
                 <viewController id="Yms-XV-3Iz" customClass="PokemonViewController" customModule="pokemonHelper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CGw-ft-j3L">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1190"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1890"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0pR-Vy-SL6">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1100"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1800"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TqU-2g-t3M">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1"/>
@@ -51,22 +51,22 @@
                                         </constraints>
                                     </view>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pRp-7f-a9p">
-                                        <rect key="frame" x="0.0" y="177" width="414" height="923"/>
+                                        <rect key="frame" x="0.0" y="177" width="414" height="1623"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="82S-RU-9ie">
-                                                <rect key="frame" x="8" y="8" width="398" height="2000"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="82S-RU-9ie">
+                                                <rect key="frame" x="8" y="8" width="398" height="2400"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleAspectFill" misplaced="YES" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="DOJ-vC-IK3">
-                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="1200"/>
+                                                    <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="DOJ-vC-IK3">
+                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="2400"/>
                                                         <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="xBQ-0a-0KB">
-                                                                <rect key="frame" x="0.0" y="0.0" width="398" height="276"/>
+                                                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="equalSpacing" spacing="-10" translatesAutoresizingMaskIntoConstraints="NO" id="xBQ-0a-0KB">
+                                                                <rect key="frame" x="0.0" y="0.0" width="398" height="300"/>
                                                                 <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" image="Velocidade Extrema" translatesAutoresizingMaskIntoConstraints="NO" id="LeS-PI-2WA">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="240"/>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Velocidade Extrema" translatesAutoresizingMaskIntoConstraints="NO" id="LeS-PI-2WA">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="264"/>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" ambiguous="YES" text="Bolinho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bv1-iI-D1G">
-                                                                        <rect key="frame" x="0.0" y="240" width="398" height="36"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Bolinho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bv1-iI-D1G">
+                                                                        <rect key="frame" x="0.0" y="264" width="398" height="36"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -79,14 +79,14 @@
                                                                     <constraint firstItem="Bv1-iI-D1G" firstAttribute="leading" secondItem="xBQ-0a-0KB" secondAttribute="leading" id="s1C-O7-wwK"/>
                                                                 </constraints>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="225-Ja-7yF">
-                                                                <rect key="frame" x="0.0" y="276" width="398" height="250"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="225-Ja-7yF">
+                                                                <rect key="frame" x="0.0" y="300" width="398" height="300"/>
                                                                 <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" image="Explosão de Fogo" translatesAutoresizingMaskIntoConstraints="NO" id="fmt-az-ofC">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="214"/>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Explosão de Fogo" translatesAutoresizingMaskIntoConstraints="NO" id="fmt-az-ofC">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="264"/>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" ambiguous="YES" text="Bolinho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ba4-Uy-ozX">
-                                                                        <rect key="frame" x="0.0" y="214" width="398" height="36"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Bolinho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ba4-Uy-ozX">
+                                                                        <rect key="frame" x="0.0" y="264" width="398" height="36"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -99,14 +99,14 @@
                                                                     <constraint firstAttribute="trailing" secondItem="ba4-Uy-ozX" secondAttribute="trailing" id="wxa-8W-qQE"/>
                                                                 </constraints>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="D02-1w-QVG">
-                                                                <rect key="frame" x="0.0" y="526" width="398" height="276"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="D02-1w-QVG">
+                                                                <rect key="frame" x="0.0" y="600" width="398" height="300"/>
                                                                 <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" image="Fúria do Dragão" translatesAutoresizingMaskIntoConstraints="NO" id="Gz1-r1-oux">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="240"/>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Fúria do Dragão" translatesAutoresizingMaskIntoConstraints="NO" id="Gz1-r1-oux">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="264"/>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" ambiguous="YES" text="Bolinho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDQ-5E-Umm">
-                                                                        <rect key="frame" x="0.0" y="240" width="398" height="36"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Bolinho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDQ-5E-Umm">
+                                                                        <rect key="frame" x="0.0" y="264" width="398" height="36"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -119,14 +119,14 @@
                                                                     <constraint firstAttribute="bottom" secondItem="SDQ-5E-Umm" secondAttribute="bottom" id="rRA-8k-qUO"/>
                                                                 </constraints>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="CXF-Zt-r9z">
-                                                                <rect key="frame" x="0.0" y="802" width="398" height="277"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="CXF-Zt-r9z">
+                                                                <rect key="frame" x="0.0" y="900" width="398" height="300"/>
                                                                 <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" image="Giro de Fogo" translatesAutoresizingMaskIntoConstraints="NO" id="t2c-St-5As">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="241"/>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Giro de Fogo" translatesAutoresizingMaskIntoConstraints="NO" id="t2c-St-5As">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="264"/>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" ambiguous="YES" text="Bolinho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSn-2B-8EP">
-                                                                        <rect key="frame" x="0.0" y="241" width="398" height="36"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Bolinho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSn-2B-8EP">
+                                                                        <rect key="frame" x="0.0" y="264" width="398" height="36"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -139,14 +139,14 @@
                                                                     <constraint firstItem="cSn-2B-8EP" firstAttribute="top" secondItem="t2c-St-5As" secondAttribute="bottom" id="qe7-1M-r72"/>
                                                                 </constraints>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="DMe-zX-PeI">
-                                                                <rect key="frame" x="0.0" y="1079" width="398" height="49"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="DMe-zX-PeI">
+                                                                <rect key="frame" x="0.0" y="1200" width="398" height="300"/>
                                                                 <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" image="Golpe BaixoArcanine" translatesAutoresizingMaskIntoConstraints="NO" id="i4C-jg-iFZ">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="13"/>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Golpe BaixoArcanine" translatesAutoresizingMaskIntoConstraints="NO" id="i4C-jg-iFZ">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="264"/>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" ambiguous="YES" text="Bolinho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XN5-D4-Lf5">
-                                                                        <rect key="frame" x="0.0" y="13" width="398" height="36"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Bolinho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XN5-D4-Lf5">
+                                                                        <rect key="frame" x="0.0" y="264" width="398" height="36"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -159,14 +159,14 @@
                                                                     <constraint firstItem="XN5-D4-Lf5" firstAttribute="leading" secondItem="DMe-zX-PeI" secondAttribute="leading" id="cjH-Xe-2Kd"/>
                                                                 </constraints>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="LNE-Iu-fER">
-                                                                <rect key="frame" x="0.0" y="1128" width="398" height="36"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="LNE-Iu-fER">
+                                                                <rect key="frame" x="0.0" y="1500" width="398" height="300"/>
                                                                 <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" image="Lança-Chamas" translatesAutoresizingMaskIntoConstraints="NO" id="xkk-F4-JTk">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="0.0"/>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Lança-Chamas" translatesAutoresizingMaskIntoConstraints="NO" id="xkk-F4-JTk">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="264"/>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" ambiguous="YES" text="Bolinho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ap-nM-6p4">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="36"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Bolinho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ap-nM-6p4">
+                                                                        <rect key="frame" x="0.0" y="264" width="398" height="36"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -179,14 +179,14 @@
                                                                     <constraint firstItem="5ap-nM-6p4" firstAttribute="leading" secondItem="LNE-Iu-fER" secondAttribute="leading" id="gaQ-4Z-xFI"/>
                                                                 </constraints>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Lqy-95-bof">
-                                                                <rect key="frame" x="0.0" y="1164" width="398" height="36"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Lqy-95-bof">
+                                                                <rect key="frame" x="0.0" y="1800" width="398" height="300"/>
                                                                 <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" image="Rugido" translatesAutoresizingMaskIntoConstraints="NO" id="xbw-k3-bGI">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="0.0"/>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Rugido" translatesAutoresizingMaskIntoConstraints="NO" id="xbw-k3-bGI">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="264"/>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" ambiguous="YES" text="Bolinho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4x-gG-8Al">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="36"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Bolinho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4x-gG-8Al">
+                                                                        <rect key="frame" x="0.0" y="264" width="398" height="36"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -197,6 +197,26 @@
                                                                     <constraint firstItem="R4x-gG-8Al" firstAttribute="leading" secondItem="Lqy-95-bof" secondAttribute="leading" id="Zno-nd-Xk0"/>
                                                                     <constraint firstAttribute="bottom" secondItem="R4x-gG-8Al" secondAttribute="bottom" id="wlO-hQ-qzB"/>
                                                                     <constraint firstAttribute="trailing" secondItem="R4x-gG-8Al" secondAttribute="trailing" id="xvc-8e-uVG"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="tu9-Bs-sLt">
+                                                                <rect key="frame" x="0.0" y="2100" width="398" height="300"/>
+                                                                <subviews>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Superaquecimento" translatesAutoresizingMaskIntoConstraints="NO" id="6SS-g2-xuZ">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="264"/>
+                                                                    </imageView>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Bolinho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DuZ-ol-UuC">
+                                                                        <rect key="frame" x="0.0" y="264" width="398" height="36"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="bottom" secondItem="DuZ-ol-UuC" secondAttribute="bottom" id="KhK-XH-1sZ"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="DuZ-ol-UuC" secondAttribute="trailing" id="SrQ-CS-ei0"/>
+                                                                    <constraint firstItem="DuZ-ol-UuC" firstAttribute="leading" secondItem="tu9-Bs-sLt" secondAttribute="leading" id="hpx-V7-Ad3"/>
+                                                                    <constraint firstItem="DuZ-ol-UuC" firstAttribute="top" secondItem="6SS-g2-xuZ" secondAttribute="bottom" id="qbi-dA-Oe1"/>
                                                                 </constraints>
                                                             </stackView>
                                                         </subviews>
@@ -1782,7 +1802,7 @@
                                                     <constraint firstItem="DOJ-vC-IK3" firstAttribute="top" secondItem="82S-RU-9ie" secondAttribute="top" id="ECQ-y5-A9O"/>
                                                     <constraint firstAttribute="bottom" secondItem="DOJ-vC-IK3" secondAttribute="bottom" id="RIP-dU-pNb"/>
                                                     <constraint firstAttribute="trailing" secondItem="DOJ-vC-IK3" secondAttribute="trailing" id="SDI-Cd-fPj"/>
-                                                    <constraint firstAttribute="height" constant="1200" id="dru-p8-OHh"/>
+                                                    <constraint firstAttribute="height" constant="2400" id="dru-p8-OHh"/>
                                                     <constraint firstItem="DOJ-vC-IK3" firstAttribute="leading" secondItem="82S-RU-9ie" secondAttribute="leading" id="qZg-da-D4w"/>
                                                 </constraints>
                                                 <variation key="default">
@@ -1809,7 +1829,7 @@
                                         <constraints>
                                             <constraint firstItem="82S-RU-9ie" firstAttribute="leading" secondItem="pRp-7f-a9p" secondAttribute="leading" constant="8" id="1um-7k-g4e"/>
                                             <constraint firstAttribute="trailing" secondItem="82S-RU-9ie" secondAttribute="trailing" constant="8" id="BGC-ls-bSg"/>
-                                            <constraint firstAttribute="bottom" secondItem="82S-RU-9ie" secondAttribute="bottom" constant="8" id="UeV-BK-pck"/>
+                                            <constraint firstAttribute="bottom" secondItem="82S-RU-9ie" secondAttribute="bottom" id="UeV-BK-pck"/>
                                             <constraint firstItem="82S-RU-9ie" firstAttribute="top" secondItem="pRp-7f-a9p" secondAttribute="top" constant="8" id="iJD-Q8-ARY"/>
                                             <constraint firstItem="82S-RU-9ie" firstAttribute="centerX" secondItem="pRp-7f-a9p" secondAttribute="centerX" id="ubv-ZK-wcp"/>
                                         </constraints>
@@ -1833,7 +1853,7 @@
                         <color key="badgeColor" systemColor="systemRedColor"/>
                         <imageReference key="selectedImage" image="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" symbolScale="large"/>
                     </tabBarItem>
-                    <size key="freeformSize" width="414" height="1300"/>
+                    <size key="freeformSize" width="414" height="2000"/>
                     <connections>
                         <outlet property="stackPokemonArcanine" destination="DOJ-vC-IK3" id="mAf-yt-sgC"/>
                         <outlet property="stackPokemonBeedril" destination="vnL-Xb-yze" id="Fp0-tD-XW1"/>
@@ -1855,7 +1875,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ak6-xx-i2z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2233" y="973"/>
+            <point key="canvasLocation" x="1933" y="1298"/>
         </scene>
         <!--Pokemons-->
         <scene sceneID="hwF-ay-O31">
@@ -2237,6 +2257,7 @@
         <image name="Golpe BaixoArcanine" width="320" height="242"/>
         <image name="Lança-Chamas" width="320" height="181"/>
         <image name="Rugido" width="320" height="212"/>
+        <image name="Superaquecimento" width="320" height="214"/>
         <image name="Velocidade Extrema" width="320" height="240"/>
         <image name="arcanine" width="360" height="339"/>
         <image name="basculin-red-striped" width="360" height="310"/>
