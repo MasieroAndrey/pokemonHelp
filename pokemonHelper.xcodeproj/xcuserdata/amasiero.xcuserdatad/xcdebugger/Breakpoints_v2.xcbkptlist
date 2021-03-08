@@ -16,8 +16,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "20"
             endingLineNumber = "20"
-            landmarkName = "stackPokemonBio"
-            landmarkType = "24">
+            landmarkName = "PokemonViewController"
+            landmarkType = "3">
             <Locations>
                <Location
                   uuid = "4DBF5E5B-ACAE-4B99-AA94-AAA00BBD3999 - 5614af529e2cee5f"

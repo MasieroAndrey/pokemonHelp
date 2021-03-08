@@ -1789,8 +1789,7 @@
                             <constraint firstItem="p1g-x8-8IU" firstAttribute="bottom" secondItem="0pR-Vy-SL6" secondAttribute="bottom" constant="7" id="r4l-BU-zYC"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Bio" id="hg3-0V-Ctc">
-                        <imageReference key="image" image="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" symbolScale="large"/>
+                    <tabBarItem key="tabBarItem" title="Bio" image="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" id="hg3-0V-Ctc">
                         <color key="badgeColor" systemColor="systemRedColor"/>
                         <imageReference key="selectedImage" image="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" symbolScale="large"/>
                     </tabBarItem>
@@ -1805,10 +1804,10 @@
                         <outlet property="stackPokemonCrawdaunt" destination="Und-LT-LX6" id="tiv-zf-O1N"/>
                         <outlet property="stackPokemonDragonite" destination="tlk-cI-glr" id="PSW-Y8-TX6"/>
                         <outlet property="stackPokemonEevee" destination="Fmi-yh-WdG" id="yk7-mj-Kxt"/>
-                        <outlet property="stackPokemonFebas" destination="NHM-9N-MEL" id="9Oo-qk-VqB"/>
                         <outlet property="stackPokemonGengar" destination="Lbu-ah-cOh" id="Qnv-cf-KKH"/>
                         <outlet property="stackPokemonPidgeot" destination="Ytg-0Z-3yd" id="bf6-lC-F9d"/>
                         <outlet property="stackPokemonPikachu" destination="vS6-Qs-tQe" id="lpP-XR-qwN"/>
+                        <outlet property="stackPokemonPoliwrath" destination="NHM-9N-MEL" id="zSp-xL-JPH"/>
                         <outlet property="stackPokemonPsyduck" destination="ZhF-nh-rCx" id="Bht-Cv-jAo"/>
                         <outlet property="stackPokemonSylveon" destination="kzn-dc-6OU" id="dXm-Zv-PfF"/>
                         <outlet property="stackPokemonUnbreon" destination="gTB-Cz-I8A" id="0Fz-HM-yFJ"/>
@@ -1822,9 +1821,7 @@
         <scene sceneID="hwF-ay-O31">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" interfaceStyle="light" id="OR7-a7-DM1" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Pokemons" image="icon" id="vgJ-lu-V40">
-                        <imageReference key="selectedImage" image="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" symbolScale="large"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="Pokemons" image="icon" selectedImage="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" id="vgJ-lu-V40"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="X4M-9Z-Boj"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
@@ -1938,7 +1935,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4g-rW-7CN">
                                                 <rect key="frame" x="0.0" y="512" width="118" height="118"/>
-                                                <state key="normal" title="Button" image="feebas"/>
+                                                <state key="normal" title="Button" image="8b434a5d-2e13-44bf-a2af-595ade99a1f4_800x600"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7T-bw-Plj">
                                                 <rect key="frame" x="0.0" y="640" width="118" height="118"/>
@@ -2193,6 +2190,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="8b434a5d-2e13-44bf-a2af-595ade99a1f4_800x600" width="800" height="600"/>
         <image name="arcanine" width="360" height="339"/>
         <image name="basculin-red-striped" width="360" height="310"/>
         <image name="beedrill" width="333" height="400"/>
@@ -2204,7 +2202,6 @@
         <image name="crawdaunt" width="360" height="330"/>
         <image name="dragonite" width="312" height="400"/>
         <image name="eevee" width="325" height="400"/>
-        <image name="feebas" width="295" height="400"/>
         <image name="gengar" width="360" height="368"/>
         <image name="icon" width="128" height="128"/>
         <image name="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" width="30" height="30"/>

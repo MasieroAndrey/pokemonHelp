@@ -18,7 +18,7 @@ class PokemonViewController: UIViewController {
 	@IBOutlet weak var stackPokemonCharizard: UIStackView!
 	@IBOutlet weak var stackPokemonCorphish: UIStackView!
 	@IBOutlet weak var stackPokemonPikachu: UIStackView!
-	@IBOutlet weak var stackPokemonFebas: UIStackView!
+	@IBOutlet weak var stackPokemonPoliwrath: UIStackView!
 	@IBOutlet weak var stackPokemonPidgeot: UIStackView!
 	@IBOutlet weak var stackPokemonCharmander: UIStackView!
 	@IBOutlet weak var stackPokemonCrawdaunt: UIStackView!
