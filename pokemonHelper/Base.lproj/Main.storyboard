@@ -247,7 +247,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2PY-e0-clg">
                                                 <rect key="frame" x="0.0" y="0.0" width="118" height="127.5"/>
-                                                <state key="normal" title="Button" image="charizard"/>
+                                                <state key="normal" title="Button" image="beedrill"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                         <integer key="value" value="10"/>
@@ -264,11 +264,11 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ioX-v1-ofT">
                                                 <rect key="frame" x="0.0" y="413" width="118" height="127.5"/>
-                                                <state key="normal" title="Button" image="dragonite"/>
+                                                <state key="normal" title="Button" image="eevee"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uX-38-icq">
                                                 <rect key="frame" x="0.0" y="550.5" width="118" height="127.5"/>
-                                                <state key="normal" title="Button" image="pidgeot"/>
+                                                <state key="normal" title="Button" image="gengar"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -277,7 +277,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ig-r8-bl4">
                                                 <rect key="frame" x="0.0" y="0.0" width="118" height="118"/>
-                                                <state key="normal" title="Button" image="charizard"/>
+                                                <state key="normal" title="Button" image="arcanine"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                         <integer key="value" value="10"/>
@@ -295,7 +295,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zja-XT-G8l">
                                                 <rect key="frame" x="0.0" y="256" width="118" height="118"/>
-                                                <state key="normal" title="Button" image="umbreon"/>
+                                                <state key="normal" title="Button" image="corphish"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCN-YR-iY0">
                                                 <rect key="frame" x="0.0" y="384" width="118" height="118"/>
@@ -306,7 +306,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4g-rW-7CN">
                                                 <rect key="frame" x="0.0" y="512" width="118" height="118"/>
-                                                <state key="normal" title="Button" image="dragonite"/>
+                                                <state key="normal" title="Button" image="feebas"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7T-bw-Plj">
                                                 <rect key="frame" x="0.0" y="640" width="118" height="118"/>
@@ -319,7 +319,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSN-QQ-vCi">
                                                 <rect key="frame" x="0.0" y="0.0" width="118" height="127.5"/>
-                                                <state key="normal" title="Button" image="charizard"/>
+                                                <state key="normal" title="Button" image="charmander"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                         <integer key="value" value="10"/>
@@ -328,19 +328,19 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Gs-h3-YA3">
                                                 <rect key="frame" x="0.0" y="137.5" width="118" height="127.5"/>
-                                                <state key="normal" title="Button" image="umbreon"/>
+                                                <state key="normal" title="Button" image="crawdaunt"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZA-fY-tF1">
                                                 <rect key="frame" x="0.0" y="275" width="118" height="128"/>
-                                                <state key="normal" title="Button" image="blastoise"/>
+                                                <state key="normal" title="Button" image="dragonite"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZI6-An-dJN">
                                                 <rect key="frame" x="0.0" y="413" width="118" height="127.5"/>
-                                                <state key="normal" title="Button" image="dragonite"/>
+                                                <state key="normal" title="Button" image="psyduck"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4R-Dz-QNF">
                                                 <rect key="frame" x="0.0" y="550.5" width="118" height="127.5"/>
-                                                <state key="normal" title="Button" image="pidgeot"/>
+                                                <state key="normal" title="Button" image="sylveon"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -563,11 +563,19 @@
         <image name="blastoise" width="360" height="391"/>
         <image name="book" catalog="system" width="128" height="102"/>
         <image name="charizard" width="360" height="283"/>
+        <image name="charmander" width="354" height="400"/>
+        <image name="corphish" width="360" height="351"/>
+        <image name="crawdaunt" width="360" height="330"/>
         <image name="dragonite" width="312" height="400"/>
+        <image name="eevee" width="325" height="400"/>
+        <image name="feebas" width="295" height="400"/>
+        <image name="gengar" width="360" height="368"/>
         <image name="icon" width="128" height="128"/>
         <image name="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" width="30" height="30"/>
         <image name="pidgeot" width="360" height="377"/>
         <image name="pikachu (1)" width="360" height="337"/>
+        <image name="psyduck" width="310" height="400"/>
+        <image name="sylveon" width="294" height="400"/>
         <image name="umbreon" width="332" height="400"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

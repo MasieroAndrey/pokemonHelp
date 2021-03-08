@@ -23,7 +23,6 @@ class ViewController: UIViewController {
 
     func playSound() {
         guard let url = Bundle.main.url(forResource: "pokemonmusic", withExtension: "mp3") else { return }
-
         do {
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
             try AVAudioSession.sharedInstance().setActive(true)
