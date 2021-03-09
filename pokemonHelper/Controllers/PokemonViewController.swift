@@ -69,29 +69,21 @@ class PokemonViewController: UIViewController {
         // 1. Usando API
         let url = URL(string: "https://pokeapi.co/api/v2/pokemon/" + name)!
 		guard let jsonData = try? Data(contentsOf: url) else { return }
-		if let jsonModel = try? JSONDecoder().decode(JSONModel.self, from: jsonData) {//{
+		if let jsonModel = try? JSONDecoder().decode(JSONModel.self, from: jsonData) {
             print(jsonModel)
+			
+			
+			
+			guard let tryPokemonName = jsonModel.name else { return  }
+			namePokemon.text = tryPokemonName
+			print(tryPokemonName)
+			
 		}
+		
     }
-//	func pokemonAPI(name: String) {
-//		typealias JSONModel = JSONModelElement
-//
-//		// 1. Usando API
-//		if let url = URL(string: "https://pokeapi.co/api/v2/pokemon/" + name){
-//			URLSession.shared.dataTask(with: url){ data, response, error in
-//
-//				if let data = data{
-//					do {
-//						let res = try JSONDecoder().decode(JSONModel.self, from: data)
-//						print("\(res) aa")
-//					} catch let error {
-//						print(error)
-//					}
-//				}
-//			}.resume()
-//		}
-//
-//	}
+	
+
+
     
      func updateUI(nomePokemon: String) {
 		print(pokemonName)
