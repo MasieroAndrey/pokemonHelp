@@ -20,39 +20,61 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0pR-Vy-SL6">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="801"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TqU-2g-t3M">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="5.5"/>
-                                    </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V5J-lx-pWt">
-                                        <rect key="frame" x="0.0" y="5.5" width="414" height="171.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="146"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rtN-Cj-M5R">
-                                                <rect key="frame" x="15" y="16" width="151" height="139.5"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pikachu" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VAf-YX-QUA">
-                                                <rect key="frame" x="174" y="64" width="227" height="34.5"/>
+                                                <rect key="frame" x="179" y="53" width="227" height="40"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="227" id="YCT-GG-SsC"/>
+                                                    <constraint firstAttribute="height" constant="40" id="1Xx-lE-s0k"/>
+                                                    <constraint firstAttribute="width" constant="227" id="hZn-LA-lNd"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="26"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rtN-Cj-M5R">
+                                                <rect key="frame" x="11" y="11" width="141" height="124"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="VAf-YX-QUA" firstAttribute="top" secondItem="V5J-lx-pWt" secondAttribute="top" constant="64" id="LU4-gc-3qD"/>
-                                            <constraint firstItem="rtN-Cj-M5R" firstAttribute="leading" secondItem="V5J-lx-pWt" secondAttribute="leading" constant="15" id="NS3-sv-wZK"/>
-                                            <constraint firstAttribute="bottom" secondItem="VAf-YX-QUA" secondAttribute="bottom" constant="73" id="PMn-x2-tzM"/>
-                                            <constraint firstItem="rtN-Cj-M5R" firstAttribute="centerY" secondItem="V5J-lx-pWt" secondAttribute="centerY" id="mHu-aM-2Eb"/>
-                                            <constraint firstItem="rtN-Cj-M5R" firstAttribute="top" secondItem="V5J-lx-pWt" secondAttribute="top" constant="16" id="syf-1a-bmY"/>
-                                            <constraint firstItem="VAf-YX-QUA" firstAttribute="leading" secondItem="rtN-Cj-M5R" secondAttribute="trailing" constant="8" id="vuT-x8-b2C"/>
-                                            <constraint firstAttribute="trailing" secondItem="VAf-YX-QUA" secondAttribute="trailing" constant="13" id="y9n-ij-f12"/>
+                                            <constraint firstItem="VAf-YX-QUA" firstAttribute="centerY" secondItem="rtN-Cj-M5R" secondAttribute="centerY" id="GNH-42-4bt"/>
+                                            <constraint firstItem="rtN-Cj-M5R" firstAttribute="top" secondItem="V5J-lx-pWt" secondAttribute="top" constant="11" id="YFT-b8-Jaa"/>
+                                            <constraint firstAttribute="bottom" secondItem="rtN-Cj-M5R" secondAttribute="bottom" constant="11" id="nrJ-ch-34l"/>
+                                            <constraint firstItem="VAf-YX-QUA" firstAttribute="leading" secondItem="rtN-Cj-M5R" secondAttribute="trailing" constant="27" id="vDO-ua-44W"/>
+                                            <constraint firstItem="rtN-Cj-M5R" firstAttribute="leading" secondItem="V5J-lx-pWt" secondAttribute="leading" constant="11" id="wGb-hE-eZk"/>
+                                            <constraint firstItem="VAf-YX-QUA" firstAttribute="trailing" secondItem="V5J-lx-pWt" secondAttribute="trailingMargin" id="wV5-ug-Jkj"/>
                                         </constraints>
                                     </view>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dDI-pg-Jmj">
+                                        <rect key="frame" x="0.0" y="146" width="414" height="32"/>
+                                        <segments>
+                                            <segment title="First"/>
+                                            <segment title="Second"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="pokemonShow:" destination="Yms-XV-3Iz" eventType="valueChanged" id="fUz-y9-Dnv"/>
+                                        </connections>
+                                    </segmentedControl>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pRp-7f-a9p">
                                         <rect key="frame" x="0.0" y="177" width="414" height="624"/>
                                         <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YKg-NI-hyq">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="2250"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZA-Ef-clD">
+                                                        <rect key="frame" x="186" y="1115" width="42" height="21"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="2250" id="qpa-GA-bxI"/>
+                                                </constraints>
+                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="82S-RU-9ie">
                                                 <rect key="frame" x="8" y="8" width="398" height="2250"/>
                                                 <subviews>
@@ -2770,7 +2792,10 @@
                                         <constraints>
                                             <constraint firstItem="82S-RU-9ie" firstAttribute="leading" secondItem="pRp-7f-a9p" secondAttribute="leading" constant="8" id="1um-7k-g4e"/>
                                             <constraint firstAttribute="trailing" secondItem="82S-RU-9ie" secondAttribute="trailing" constant="8" id="BGC-ls-bSg"/>
+                                            <constraint firstItem="YKg-NI-hyq" firstAttribute="leading" secondItem="pRp-7f-a9p" secondAttribute="leading" id="Don-He-gKo"/>
                                             <constraint firstAttribute="bottom" secondItem="82S-RU-9ie" secondAttribute="bottom" id="UeV-BK-pck"/>
+                                            <constraint firstItem="YKg-NI-hyq" firstAttribute="centerX" secondItem="82S-RU-9ie" secondAttribute="centerX" id="Wyt-lv-1bc"/>
+                                            <constraint firstItem="YKg-NI-hyq" firstAttribute="top" secondItem="pRp-7f-a9p" secondAttribute="top" id="hMG-vV-JUe"/>
                                             <constraint firstItem="82S-RU-9ie" firstAttribute="top" secondItem="pRp-7f-a9p" secondAttribute="top" constant="8" id="iJD-Q8-ARY"/>
                                             <constraint firstItem="82S-RU-9ie" firstAttribute="centerX" secondItem="pRp-7f-a9p" secondAttribute="centerX" id="ubv-ZK-wcp"/>
                                         </constraints>
@@ -2799,6 +2824,7 @@
                         <outlet property="headerImage" destination="rtN-Cj-M5R" id="Sfb-bh-vU1"/>
                         <outlet property="headerLabel" destination="VAf-YX-QUA" id="zcL-pZ-a7Z"/>
                         <outlet property="namePokemonLabel" destination="VAf-YX-QUA" id="GeT-d9-862"/>
+                        <outlet property="selectShowPokemon" destination="dDI-pg-Jmj" id="Hok-4b-A35"/>
                         <outlet property="stackPokemonArcanine" destination="DOJ-vC-IK3" id="8TY-7E-qaZ"/>
                         <outlet property="stackPokemonBlastoise" destination="02O-gh-GLj" id="dWe-SZ-mlg"/>
                         <outlet property="stackPokemonCharizard" destination="hMl-jL-33u" id="YVR-xQ-naP"/>
@@ -2816,11 +2842,13 @@
                         <outlet property="stackPokemonSylveon" destination="90w-B3-3jB" id="gs0-o8-hhQ"/>
                         <outlet property="stackPokemonUmbreon" destination="tlF-ff-uAB" id="nhZ-Mb-spK"/>
                         <outlet property="uiImage" destination="rtN-Cj-M5R" id="Nra-dx-mOq"/>
+                        <outlet property="viewPokemonAtack" destination="YKg-NI-hyq" id="rGh-uW-4J9"/>
+                        <outlet property="viewPokemonBio" destination="82S-RU-9ie" id="TjY-tE-xh3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ak6-xx-i2z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3846" y="94"/>
+            <point key="canvasLocation" x="3844.9275362318845" y="93.75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kEE-Xh-0HY">
@@ -3102,7 +3130,7 @@
         <image name="RoarArcanine" width="320" height="212"/>
         <image name="Rugido" width="320" height="212"/>
         <image name="Safeguard" width="320" height="180"/>
-        <image name="Scratch" width="200" height="114"/>
+        <image name="Scratch" width="320" height="216"/>
         <image name="Seismic Toss" width="320" height="182"/>
         <image name="Shadow Ball" width="320" height="180"/>
         <image name="Skull Bash" width="320" height="240"/>

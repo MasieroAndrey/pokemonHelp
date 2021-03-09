@@ -26,9 +26,26 @@ class PokemonViewController: UIViewController {
 	@IBOutlet weak var stackPokemonPsyduck: UIStackView!
 	@IBOutlet weak var stackPokemonSylveon: UIStackView!
 
+	@IBOutlet weak var selectShowPokemon: UISegmentedControl!
+	@IBOutlet weak var viewPokemonAtack: UIView!
+	@IBOutlet weak var viewPokemonBio: UIView!
+	
 	@IBOutlet weak var headerLabel: UILabel!
 	@IBOutlet weak var headerImage: UIImageView!
 	
+	@IBAction func pokemonShow(_ sender: Any) {
+		switch selectShowPokemon.selectedSegmentIndex
+		{
+		case 0:
+			viewPokemonBio.isHidden = false
+			viewPokemonAtack.isHidden = true
+		case 1:
+			viewPokemonBio.isHidden = true
+			viewPokemonAtack.isHidden = false
+		default:
+			break
+		}
+	}
 	
     @IBOutlet weak var uiImage: UIImageView!
     @IBOutlet weak var namePokemonLabel: UILabel!
