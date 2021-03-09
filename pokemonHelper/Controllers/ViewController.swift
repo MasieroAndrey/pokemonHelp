@@ -49,15 +49,11 @@ class ViewController: UIViewController {
 		//playSound()
 	}
 	
-	
-	
-	
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 		if segue.identifier == "showPokemon" {
 			guard let vc = segue.destination as? PokemonViewController else{ return}
 			vc.pokemonName = sender as! String
 		}
-		
 	}
 }
 

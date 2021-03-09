@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Foundation
 
 class PokemonViewController: UIViewController {
 
@@ -49,6 +50,7 @@ class PokemonViewController: UIViewController {
 	
     @IBOutlet weak var uiImage: UIImageView!
     @IBOutlet weak var namePokemonLabel: UILabel!
+    @IBOutlet weak var namePokemon: UILabel!
     
     var pokemonName = String()
     
@@ -57,8 +59,25 @@ class PokemonViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         updateUI(nomePokemon: pokemonName)
-		
+        pokemonAPI(name: pokemonName)
     }
+   
+    
+    func pokemonAPI(name: String) {
+        typealias JSONModel = [JSONModelElement]
+
+        // 1. Usando API
+        let url = URL(string: "https://pokeapi.co/api/v2/pokemon/pikachu")!
+        guard let jsonData = try? Data(contentsOf: url) else { return }
+         let jsonModel = try! JSONDecoder().decode([JSONModel].self, from: jsonData) //{
+            print(jsonModel)
+////            for element in jsonModel {
+////                namePokemon.text = element.name
+////            }
+//        } else {
+//            print("error") }
+    }
+   
     
      func updateUI(nomePokemon: String) {
 		print(pokemonName)

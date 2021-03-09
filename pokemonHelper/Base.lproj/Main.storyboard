@@ -63,7 +63,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YKg-NI-hyq">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="2250"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZA-Ef-clD">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZA-Ef-clD">
                                                         <rect key="frame" x="186" y="1115" width="42" height="21"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -2823,6 +2823,7 @@
                     <connections>
                         <outlet property="headerImage" destination="rtN-Cj-M5R" id="Sfb-bh-vU1"/>
                         <outlet property="headerLabel" destination="VAf-YX-QUA" id="zcL-pZ-a7Z"/>
+                        <outlet property="namePokemon" destination="xZA-Ef-clD" id="KIU-6a-fGT"/>
                         <outlet property="namePokemonLabel" destination="VAf-YX-QUA" id="GeT-d9-862"/>
                         <outlet property="selectShowPokemon" destination="dDI-pg-Jmj" id="Hok-4b-A35"/>
                         <outlet property="stackPokemonArcanine" destination="DOJ-vC-IK3" id="8TY-7E-qaZ"/>
@@ -3125,12 +3126,12 @@
         <image name="Overheat" width="320" height="214"/>
         <image name="Peck" width="320" height="240"/>
         <image name="Psychic" width="320" height="240"/>
-        <image name="Quick Attack" width="320" height="180"/>
+        <image name="Quick Attack" width="320" height="268"/>
         <image name="Rapid Spin" width="320" height="180"/>
         <image name="RoarArcanine" width="320" height="212"/>
         <image name="Rugido" width="320" height="212"/>
         <image name="Safeguard" width="320" height="180"/>
-        <image name="Scratch" width="320" height="216"/>
+        <image name="Scratch" width="200" height="114"/>
         <image name="Seismic Toss" width="320" height="182"/>
         <image name="Shadow Ball" width="320" height="180"/>
         <image name="Skull Bash" width="320" height="240"/>
