@@ -14,11 +14,11 @@
             <objects>
                 <viewController id="Yms-XV-3Iz" customClass="PokemonViewController" customModule="pokemonHelper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CGw-ft-j3L">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1890"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0pR-Vy-SL6">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1800"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="801"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TqU-2g-t3M">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="5.5"/>
@@ -51,7 +51,7 @@
                                         </constraints>
                                     </view>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pRp-7f-a9p">
-                                        <rect key="frame" x="0.0" y="177" width="414" height="1623"/>
+                                        <rect key="frame" x="0.0" y="177" width="414" height="624"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="82S-RU-9ie">
                                                 <rect key="frame" x="8" y="8" width="398" height="2250"/>
@@ -2794,8 +2794,10 @@
                         <color key="badgeColor" systemColor="systemRedColor"/>
                         <imageReference key="selectedImage" image="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" symbolScale="large"/>
                     </tabBarItem>
-                    <size key="freeformSize" width="414" height="2000"/>
+                    <navigationItem key="navigationItem" id="pdW-Im-Xts"/>
                     <connections>
+                        <outlet property="headerImage" destination="rtN-Cj-M5R" id="Sfb-bh-vU1"/>
+                        <outlet property="headerLabel" destination="VAf-YX-QUA" id="zcL-pZ-a7Z"/>
                         <outlet property="namePokemonLabel" destination="VAf-YX-QUA" id="GeT-d9-862"/>
                         <outlet property="stackPokemonArcanine" destination="DOJ-vC-IK3" id="8TY-7E-qaZ"/>
                         <outlet property="stackPokemonBlastoise" destination="02O-gh-GLj" id="dWe-SZ-mlg"/>
@@ -2818,49 +2820,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ak6-xx-i2z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1931.8840579710147" y="1297.7678571428571"/>
-        </scene>
-        <!--Pokemons-->
-        <scene sceneID="hwF-ay-O31">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" interfaceStyle="light" id="OR7-a7-DM1" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Pokemons" image="icon" selectedImage="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" id="vgJ-lu-V40"/>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="X4M-9Z-Boj"/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="fxb-eq-Y7O">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="vYb-V5-iQ3" kind="relationship" relationship="rootViewController" id="bSi-5a-uTC"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eLi-gC-dsd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2567" y="94"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="9zc-xs-aSS">
-            <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="vYb-V5-iQ3" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="cDu-lB-qjb"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="91r-xm-PbR">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" red="0.8624188304" green="0.037243489179999999" blue="0.180329144" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="Yms-XV-3Iz" kind="relationship" relationship="viewControllers" id="an1-gv-SMK"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="M8I-Op-1nV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3364" y="94"/>
+            <point key="canvasLocation" x="3846" y="94"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kEE-Xh-0HY">
@@ -2878,42 +2838,42 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2PY-e0-clg">
                                                 <rect key="frame" x="0.0" y="0.0" width="118" height="127.5"/>
-                                                <state key="normal" title="Button" image="squirtle"/>
+                                                <state key="normal" title="squirtle" image="squirtle"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                         <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="uay-uO-f0p"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="tkM-2j-1lo"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mru-Lk-iyf">
                                                 <rect key="frame" x="0.0" y="137.5" width="118" height="127.5"/>
-                                                <state key="normal" title="Button" image="umbreon"/>
+                                                <state key="normal" title="umbreon" image="umbreon"/>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="wCo-iK-olw"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="AYS-yO-zAf"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T0e-cE-uoO">
                                                 <rect key="frame" x="0.0" y="275" width="118" height="128"/>
-                                                <state key="normal" title="Button" image="blastoise"/>
+                                                <state key="normal" title="blastoise" image="blastoise"/>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="PYo-4S-OYh"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="O7f-NQ-18K"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ioX-v1-ofT">
                                                 <rect key="frame" x="0.0" y="413" width="118" height="127.5"/>
-                                                <state key="normal" title="Button" image="eevee"/>
+                                                <state key="normal" title="eevee" image="eevee"/>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="Re5-iN-tBs"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="Xab-KD-nGs"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uX-38-icq">
                                                 <rect key="frame" x="0.0" y="550.5" width="118" height="127.5"/>
-                                                <state key="normal" title="Button" image="gengar"/>
+                                                <state key="normal" title="gengar" image="gengar"/>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="0F6-Sh-Nc3"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="YO6-4q-zY3"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -2923,54 +2883,54 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ig-r8-bl4">
                                                 <rect key="frame" x="0.0" y="0.0" width="118" height="118"/>
-                                                <state key="normal" title="Button" image="arcanine"/>
+                                                <state key="normal" title="arcanine" image="arcanine"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                         <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="EXj-rp-4H2"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="q9p-gk-HDb"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d55-Zg-Gqb">
                                                 <rect key="frame" x="0.0" y="128" width="118" height="118"/>
-                                                <state key="normal" title="Button" image="charizard"/>
+                                                <state key="normal" title="charizard" image="charizard"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                         <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="2kJ-Y9-0x7"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="o64-XI-IRG"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zja-XT-G8l">
                                                 <rect key="frame" x="0.0" y="256" width="118" height="118"/>
-                                                <state key="normal" title="Button" image="corphish"/>
+                                                <state key="normal" title="corphish" image="corphish"/>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="fhW-IH-cPX"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="STE-SZ-w61"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" restorationIdentifier="pikachu" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCN-YR-iY0">
                                                 <rect key="frame" x="0.0" y="384" width="118" height="118"/>
-                                                <state key="normal" title="pikachu" image="pikachu (1)"/>
+                                                <state key="normal" title="pikachu" image="pikachu"/>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="QJQ-ma-G8x"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="ten-kA-ohM"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4g-rW-7CN">
                                                 <rect key="frame" x="0.0" y="512" width="118" height="118"/>
-                                                <state key="normal" title="Button" image="8b434a5d-2e13-44bf-a2af-595ade99a1f4_800x600"/>
+                                                <state key="normal" title="poliwrath" image="poliwrath"/>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="udN-n5-TZt"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="RKV-x6-E4s"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7T-bw-Plj">
                                                 <rect key="frame" x="0.0" y="640" width="118" height="118"/>
-                                                <state key="normal" title="Button" image="pidgeot"/>
+                                                <state key="normal" title="pidgeot" image="pidgeot"/>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="53h-iR-vOL"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="rvV-W2-HXN"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -2980,42 +2940,42 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSN-QQ-vCi">
                                                 <rect key="frame" x="0.0" y="0.0" width="118" height="127.5"/>
-                                                <state key="normal" title="Button" image="charmander"/>
+                                                <state key="normal" title="charmander" image="charmander"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                         <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="mtW-Fa-7Vw"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="lIo-aZ-f1b"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Gs-h3-YA3">
                                                 <rect key="frame" x="0.0" y="137.5" width="118" height="127.5"/>
-                                                <state key="normal" title="Button" image="crawdaunt"/>
+                                                <state key="normal" title="crawdaunt" image="crawdaunt"/>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="eb3-BW-b4C"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="Al0-qP-Vx3"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZA-fY-tF1">
                                                 <rect key="frame" x="0.0" y="275" width="118" height="128"/>
-                                                <state key="normal" title="Button" image="dragonite"/>
+                                                <state key="normal" title="dragonite" image="dragonite"/>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="SGa-tK-mkI"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="11m-rW-W2I"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZI6-An-dJN">
                                                 <rect key="frame" x="0.0" y="413" width="118" height="127.5"/>
-                                                <state key="normal" title="Button" image="psyduck"/>
+                                                <state key="normal" title="psyduck" image="psyduck"/>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="WAR-RY-SHt"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="VQw-pf-ecN"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4R-Dz-QNF">
                                                 <rect key="frame" x="0.0" y="550.5" width="118" height="127.5"/>
-                                                <state key="normal" title="Button" image="sylveon"/>
+                                                <state key="normal" title="sylveon" image="sylveon"/>
                                                 <connections>
-                                                    <action selector="pokemonsButtons:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="5tm-6l-Mpo"/>
+                                                    <action selector="tappedPokemonButton:" destination="jnC-Ol-FYP" eventType="touchUpInside" id="66b-Vi-LYd"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -3053,195 +3013,16 @@
                     </view>
                     <navigationItem key="navigationItem" id="Whh-Nh-rph"/>
                     <connections>
-                        <segue destination="OR7-a7-DM1" kind="show" identifier="showPokemon" id="AUm-MH-erz"/>
+                        <segue destination="Yms-XV-3Iz" kind="show" identifier="showPokemon" id="MIz-Os-GVx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yuz-Vh-C3K" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1786" y="94"/>
-        </scene>
-        <!--Bio-->
-        <scene sceneID="5eH-5Z-95w">
-            <objects>
-                <viewController id="wzg-Uf-oza" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Sxd-UT-L8a">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="H4U-sS-lVV">
-                                <rect key="frame" x="0.0" y="44" width="414" height="811"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RMl-am-Pfw">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1"/>
-                                    </stackView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="llr-uG-Pdb">
-                                        <rect key="frame" x="0.0" y="1" width="414" height="176"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pikachu (1)" translatesAutoresizingMaskIntoConstraints="NO" id="iwm-TR-f2m">
-                                                <rect key="frame" x="15" y="16" width="151" height="144"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pikachu" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T3r-EH-rq6">
-                                                <rect key="frame" x="174" y="64" width="227" height="39"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="227" id="32b-7W-DVY"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="26"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstItem="iwm-TR-f2m" firstAttribute="centerY" secondItem="llr-uG-Pdb" secondAttribute="centerY" id="3zd-0m-KD2"/>
-                                            <constraint firstItem="iwm-TR-f2m" firstAttribute="leading" secondItem="llr-uG-Pdb" secondAttribute="leading" constant="15" id="8w4-FO-82A"/>
-                                            <constraint firstAttribute="trailing" secondItem="T3r-EH-rq6" secondAttribute="trailing" constant="13" id="StY-em-ui9"/>
-                                            <constraint firstAttribute="bottom" secondItem="T3r-EH-rq6" secondAttribute="bottom" constant="73" id="Y9D-qR-Kdk"/>
-                                            <constraint firstItem="T3r-EH-rq6" firstAttribute="top" secondItem="llr-uG-Pdb" secondAttribute="top" constant="64" id="ZvN-wY-vkJ"/>
-                                            <constraint firstItem="iwm-TR-f2m" firstAttribute="top" secondItem="llr-uG-Pdb" secondAttribute="top" constant="16" id="kE6-Sy-Ato"/>
-                                            <constraint firstItem="T3r-EH-rq6" firstAttribute="leading" secondItem="iwm-TR-f2m" secondAttribute="trailing" constant="8" id="lJD-Z0-6Pj"/>
-                                        </constraints>
-                                    </view>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qnE-Ui-OQ1">
-                                        <rect key="frame" x="0.0" y="177" width="414" height="634"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zOt-Eh-sMZ">
-                                                <rect key="frame" x="8" y="8" width="398" height="1200"/>
-                                                <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hSu-xM-Z7Q">
-                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="1200"/>
-                                                        <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7x0-V6-4ey">
-                                                                <rect key="frame" x="0.0" y="0.0" width="398" height="200"/>
-                                                                <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beedrill" translatesAutoresizingMaskIntoConstraints="NO" id="5ya-2K-Sn3">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="199" height="200"/>
-                                                                    </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R81-Qb-02r">
-                                                                        <rect key="frame" x="199" y="0.0" width="199" height="200"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                        <nil key="textColor"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                    </label>
-                                                                </subviews>
-                                                            </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cyp-Dy-eV3">
-                                                                <rect key="frame" x="0.0" y="200" width="398" height="200"/>
-                                                                <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beedrill" translatesAutoresizingMaskIntoConstraints="NO" id="xFs-Vo-peL">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="199" height="200"/>
-                                                                    </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZU-zL-wQq">
-                                                                        <rect key="frame" x="199" y="0.0" width="199" height="200"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                        <nil key="textColor"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                    </label>
-                                                                </subviews>
-                                                            </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="kdL-AM-iYe">
-                                                                <rect key="frame" x="0.0" y="400" width="398" height="200"/>
-                                                                <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beedrill" translatesAutoresizingMaskIntoConstraints="NO" id="DRE-TZ-l5L">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="199" height="200"/>
-                                                                    </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QqP-m4-cbl">
-                                                                        <rect key="frame" x="199" y="0.0" width="199" height="200"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                        <nil key="textColor"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                    </label>
-                                                                </subviews>
-                                                            </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Uup-D2-e3j">
-                                                                <rect key="frame" x="0.0" y="600" width="398" height="200"/>
-                                                                <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beedrill" translatesAutoresizingMaskIntoConstraints="NO" id="joS-Yp-BhA">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="199" height="200"/>
-                                                                    </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuf-WL-K2j">
-                                                                        <rect key="frame" x="199" y="0.0" width="199" height="200"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                        <nil key="textColor"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                    </label>
-                                                                </subviews>
-                                                            </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qdG-VW-NNn">
-                                                                <rect key="frame" x="0.0" y="800" width="398" height="200"/>
-                                                                <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beedrill" translatesAutoresizingMaskIntoConstraints="NO" id="N1I-Wx-MSn">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="199" height="200"/>
-                                                                    </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vEU-Jr-YuE">
-                                                                        <rect key="frame" x="199" y="0.0" width="199" height="200"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                        <nil key="textColor"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                    </label>
-                                                                </subviews>
-                                                            </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="9fh-uA-y6I">
-                                                                <rect key="frame" x="0.0" y="1000" width="398" height="200"/>
-                                                                <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beedrill" translatesAutoresizingMaskIntoConstraints="NO" id="vtj-gP-aDT">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="199" height="200"/>
-                                                                    </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XN1-un-lXc">
-                                                                        <rect key="frame" x="199" y="0.0" width="199" height="200"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                        <nil key="textColor"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                    </label>
-                                                                </subviews>
-                                                            </stackView>
-                                                        </subviews>
-                                                    </stackView>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <constraints>
-                                                    <constraint firstItem="hSu-xM-Z7Q" firstAttribute="top" secondItem="zOt-Eh-sMZ" secondAttribute="top" id="7kr-qH-mMZ"/>
-                                                    <constraint firstAttribute="height" constant="1200" id="OeU-LY-wdV"/>
-                                                    <constraint firstAttribute="trailing" secondItem="hSu-xM-Z7Q" secondAttribute="trailing" id="bLD-YK-fAo"/>
-                                                    <constraint firstItem="hSu-xM-Z7Q" firstAttribute="leading" secondItem="zOt-Eh-sMZ" secondAttribute="leading" id="gEI-sF-ejr"/>
-                                                    <constraint firstAttribute="bottom" secondItem="hSu-xM-Z7Q" secondAttribute="bottom" id="nrv-S8-GfF"/>
-                                                </constraints>
-                                            </view>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="zOt-Eh-sMZ" firstAttribute="top" secondItem="qnE-Ui-OQ1" secondAttribute="top" constant="8" id="4Jt-jJ-gU4"/>
-                                            <constraint firstAttribute="trailing" secondItem="zOt-Eh-sMZ" secondAttribute="trailing" constant="8" id="8z7-sQ-CX4"/>
-                                            <constraint firstItem="zOt-Eh-sMZ" firstAttribute="centerX" secondItem="qnE-Ui-OQ1" secondAttribute="centerX" id="G41-cs-lVG"/>
-                                            <constraint firstAttribute="bottom" secondItem="zOt-Eh-sMZ" secondAttribute="bottom" constant="8" id="Jg4-gV-irX"/>
-                                            <constraint firstItem="zOt-Eh-sMZ" firstAttribute="leading" secondItem="qnE-Ui-OQ1" secondAttribute="leading" constant="8" id="rUD-UQ-T7x"/>
-                                        </constraints>
-                                    </scrollView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="qnE-Ui-OQ1" firstAttribute="top" secondItem="H4U-sS-lVV" secondAttribute="top" constant="177" id="hk5-h3-GtE"/>
-                                </constraints>
-                            </stackView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="LOi-Pa-MFm"/>
-                        <color key="backgroundColor" red="0.79186338190000005" green="0.1772071123" blue="0.2117176056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="H4U-sS-lVV" firstAttribute="trailing" secondItem="LOi-Pa-MFm" secondAttribute="trailing" id="9Oq-XM-TC7"/>
-                            <constraint firstItem="H4U-sS-lVV" firstAttribute="top" secondItem="LOi-Pa-MFm" secondAttribute="top" id="HOn-kk-wv3"/>
-                            <constraint firstItem="LOi-Pa-MFm" firstAttribute="bottom" secondItem="H4U-sS-lVV" secondAttribute="bottom" constant="7" id="IxA-el-Giq"/>
-                            <constraint firstItem="H4U-sS-lVV" firstAttribute="leading" secondItem="LOi-Pa-MFm" secondAttribute="leading" id="sle-Fv-VH9"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Bio" image="book" catalog="system" id="gT8-Hf-Stv">
-                        <imageReference key="selectedImage" image="book" catalog="system" symbolScale="large"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vll-uT-eM0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3786" y="820"/>
+            <point key="canvasLocation" x="1645" y="94"/>
         </scene>
     </scenes>
     <resources>
         <image name=" Iron Tail" width="320" height="180"/>
-        <image name="8b434a5d-2e13-44bf-a2af-595ade99a1f4_800x600" width="800" height="600"/>
         <image name="Aerial Ace" width="320" height="240"/>
         <image name="Aqua Tail" width="320" height="240"/>
         <image name="Aqua TailSquirtle" width="320" height="180"/>
@@ -3316,7 +3097,7 @@
         <image name="Overheat" width="320" height="214"/>
         <image name="Peck" width="320" height="240"/>
         <image name="Psychic" width="320" height="240"/>
-        <image name="Quick Attack" width="320" height="268"/>
+        <image name="Quick Attack" width="320" height="180"/>
         <image name="Rapid Spin" width="320" height="180"/>
         <image name="RoarArcanine" width="320" height="212"/>
         <image name="Rugido" width="320" height="212"/>
@@ -3349,9 +3130,7 @@
         <image name="Whirlwind" width="320" height="240"/>
         <image name="Wing Attack" width="320" height="180"/>
         <image name="arcanine" width="360" height="339"/>
-        <image name="beedrill" width="333" height="400"/>
         <image name="blastoise" width="360" height="391"/>
-        <image name="book" catalog="system" width="128" height="102"/>
         <image name="charizard" width="360" height="283"/>
         <image name="charmander" width="354" height="400"/>
         <image name="corphish" width="360" height="351"/>
@@ -3359,10 +3138,10 @@
         <image name="dragonite" width="312" height="400"/>
         <image name="eevee" width="325" height="400"/>
         <image name="gengar" width="360" height="368"/>
-        <image name="icon" width="128" height="128"/>
         <image name="iconfinder_01-_Pokestop_-_PokeBall_-_Game_-_Pokemon_-_Pokemongo_1543570" width="30" height="30"/>
         <image name="pidgeot" width="360" height="377"/>
-        <image name="pikachu (1)" width="360" height="337"/>
+        <image name="pikachu" width="360" height="337"/>
+        <image name="poliwrath" width="800" height="600"/>
         <image name="psyduck" width="310" height="400"/>
         <image name="ragon RaceArcanine" width="320" height="240"/>
         <image name="squirtle" width="360" height="372"/>

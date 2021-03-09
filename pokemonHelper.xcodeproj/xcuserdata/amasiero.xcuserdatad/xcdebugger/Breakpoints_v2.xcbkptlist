@@ -3,4 +3,178 @@
    uuid = "6EDE31A2-0E33-486C-85E9-3F50F5DD97B0"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "226D379F-0872-4CCA-90AE-4859A38BED89"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pokemonHelper/PokemonViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "PokemonViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "226D379F-0872-4CCA-90AE-4859A38BED89 - d868a946e3c4e718"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pokemonHelper.PokemonViewController.pokemonName.getter : Swift.String"
+                  moduleName = "pokemonHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amasiero/Downloads/Pasta%20Sem%20Ti%CC%81tulo/pokemonHelp/pokemonHelper/PokemonViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "226D379F-0872-4CCA-90AE-4859A38BED89 - 742192b6093fd694"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pokemonHelper.PokemonViewController.pokemonName.setter : Swift.String"
+                  moduleName = "pokemonHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amasiero/Downloads/Pasta%20Sem%20Ti%CC%81tulo/pokemonHelp/pokemonHelper/PokemonViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "226D379F-0872-4CCA-90AE-4859A38BED89 - 623f11d1a7185487"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pokemonHelper.PokemonViewController.pokemonName.modify : Swift.String"
+                  moduleName = "pokemonHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amasiero/Downloads/Pasta%20Sem%20Ti%CC%81tulo/pokemonHelp/pokemonHelper/PokemonViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "226D379F-0872-4CCA-90AE-4859A38BED89 - 26fa74776615d147"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pokemonHelper.PokemonViewController.pokemonName.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "pokemonHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amasiero/Downloads/Pasta%20Sem%20Ti%CC%81tulo/pokemonHelp/pokemonHelper/PokemonViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "226D379F-0872-4CCA-90AE-4859A38BED89 - f84919caf69c6a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pokemonHelper.PokemonViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; pokemonHelper.PokemonViewController"
+                  moduleName = "pokemonHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amasiero/Downloads/Pasta%20Sem%20Ti%CC%81tulo/pokemonHelp/pokemonHelper/PokemonViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "2748">
+               </Location>
+               <Location
+                  uuid = "226D379F-0872-4CCA-90AE-4859A38BED89 - 64b5dc7d3040d06a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pokemonHelper.PokemonViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;pokemonHelper.PokemonViewController&gt;"
+                  moduleName = "pokemonHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amasiero/Downloads/Pasta%20Sem%20Ti%CC%81tulo/pokemonHelp/pokemonHelper/PokemonViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "2689">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83CE8164-521D-43B8-9A58-08085FB0FF3F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pokemonHelper/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B92C822C-0554-426E-9EA7-C033248B0BAA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pokemonHelper/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACF38F5E-0ACD-4155-B6E4-317A8159B265"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pokemonHelper/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EF0CB91-6624-487B-988C-8DE3FA6B000F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pokemonHelper/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

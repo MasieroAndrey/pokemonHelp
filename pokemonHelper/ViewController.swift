@@ -10,13 +10,14 @@ import AVFoundation
 
 class ViewController: UIViewController {
 	
-    @IBAction func pokemonsButtons(_ sender: Any) {
-        self.performSegue(withIdentifier: "showPokemon", sender: self)
-    
-    }
-    
-    //----------Função Música de fundo.
-    var music: AVAudioPlayer?
+	
+	@IBAction func tappedPokemonButton(_ sender: UIButton) {
+		guard let tappedButton = sender.title(for: .normal) else { return }
+		performSegue(withIdentifier: "showPokemon", sender: tappedButton)
+	}
+	
+	//----------Função Música de fundo.
+	var music: AVAudioPlayer?
 	
 	func playSound() {
 		guard let url = Bundle.main.url(forResource: "pokemonmusic", withExtension: "mp3") else { return }
@@ -39,26 +40,25 @@ class ViewController: UIViewController {
 			print(error.localizedDescription)
 		}
 	}
-    // ------------------------
-        
-
+	// ------------------------
+	
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
-        //playSound()
+		//playSound()
 	}
-
-
-
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showPokemon" {
-            if let destinateVC = segue.destination as? PokemonViewController {
-                destinateVC.pokemonName = (sender as? String)!
-            }
-        }
-        
-    }
+	
+	
+	
+	
+	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		if segue.identifier == "showPokemon" {
+			guard let vc = segue.destination as? PokemonViewController else{ return}
+			vc.pokemonName = sender as! String
+		}
+		
+	}
 }
 
 
