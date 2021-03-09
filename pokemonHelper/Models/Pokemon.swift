@@ -8,16 +8,16 @@
 import Foundation
 
 struct JSONModelElement: Codable {
-//public let height, name, order, weight : String?
-    public let name: String?
-
-   // var stats, types : [String]?
+public let  name : String?
+	public let height: Int?
+	public let order : Int?
+	public let weight : Int?
 
     enum CodingKeys: String, CodingKey {
-      //  case height = "height"
+        case height = "height"
         case name = "name"
-//        case order = "order"
-//        case weight = "weight"
+        case order = "order"
+        case weight = "weight"
 
         //   case species = "species"
         //case stats = [stats]

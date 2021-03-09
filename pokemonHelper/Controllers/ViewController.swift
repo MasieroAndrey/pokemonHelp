@@ -46,7 +46,7 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
-		//playSound()
+		playSound()
 	}
 	
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
