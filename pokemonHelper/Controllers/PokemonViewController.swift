@@ -64,15 +64,13 @@ class PokemonViewController: UIViewController {
    
     
     func pokemonAPI(name: String) {
-		typealias JSONModel = JSONModelElement
+		
 
         // 1. Usando API
         let url = URL(string: "https://pokeapi.co/api/v2/pokemon/" + name)!
 		guard let jsonData = try? Data(contentsOf: url) else { return }
-		if let jsonModel = try? JSONDecoder().decode(JSONModel.self, from: jsonData) {
+		if let jsonModel = try? JSONDecoder().decode(Bolinho.self, from: jsonData) {
             print(jsonModel)
-			
-			
 			
 			guard let tryPokemonName = jsonModel.name else { return  }
 			namePokemon.text = tryPokemonName

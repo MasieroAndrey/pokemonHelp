@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct JSONModelElement: Codable {
+struct Bolinho: Codable {
+	
 public let  name : String?
 	public let height: Int?
 	public let order : Int?
