@@ -67,7 +67,7 @@ class PokemonViewController: UIViewController {
 		typealias JSONModel = JSONModelElement
 
         // 1. Usando API
-        let url = URL(string: "https://pokeapi.co/api/v2/pokemon/pikachu")!
+        let url = URL(string: "https://pokeapi.co/api/v2/pokemon/" + name)!
 		guard let jsonData = try? Data(contentsOf: url) else { return }
 		if let jsonModel = try? JSONDecoder().decode(JSONModel.self, from: jsonData) {//{
             print(jsonModel)
